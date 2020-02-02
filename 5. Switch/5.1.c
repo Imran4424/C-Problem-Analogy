@@ -6,11 +6,11 @@
 
 int main(int argc, char const *argv[])
 {
-	int number;
+	int digit;
 
-	scanf("%d", &num);
+	scanf("%d", &digit);
 
-	switch(number) {
+	switch(digit) {
 		case 0:
 			printf("Zero\n");
 			break; // break is important
