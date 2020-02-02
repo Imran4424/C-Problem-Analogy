@@ -17,6 +17,7 @@ int main(int argc, char const *argv[])
 		case 1:
 			printf("One\n");
 			break;
+
 		case 2:
 			printf("Two\n");
 			break;
@@ -26,10 +27,12 @@ int main(int argc, char const *argv[])
 		case 4:
 			printf("Four\n");
 			break;
-
 		case 5:
 			printf("Five\n");
 			break;
+		case 6:
+			printf("Six\n");
+
 	}	
 
 	return 0;
