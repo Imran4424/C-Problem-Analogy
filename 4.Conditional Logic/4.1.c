@@ -17,3 +17,25 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*
+	this is the very common style of writing if-else condtion of software industry
+	so please follow this
+
+	if() {
+	
+	} else {
+	
+	}
+
+
+	if() {
+	
+	} else if () {
+	
+	} else if () {
+	
+	} else { 
+
+	}
+*/
