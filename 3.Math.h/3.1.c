@@ -1,3 +1,7 @@
+/*
+	3.1. Write a program that read any integer number and display absolute value
+*/
+
 #include <stdio.h>
 #include <math.h> // for abs function
 
