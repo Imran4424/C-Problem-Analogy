@@ -32,7 +32,19 @@ int main(int argc, char const *argv[])
 			break;
 		case 6:
 			printf("Six\n");
-
+			break;
+		case 7:
+			printf("Seven\n");
+			break;
+		case 8:
+			printf("Eight\n");
+			break;
+		case 9:
+			printf("Nine\n");
+			break;
+		default:
+			printf("Not a digit\n");
+			break;
 	}	
 
 	return 0;
