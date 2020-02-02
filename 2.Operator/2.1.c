@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
 
 	int sum = x + y;
 
-	printf("%d\n", );
+	printf("%d\n", sum);
 
 	return 0;
 }
