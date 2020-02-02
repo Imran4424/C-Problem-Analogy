@@ -1,4 +1,4 @@
-#include <string.h>
+#include <stdio.h>
 
 int main(int argc, char const *argv[])
 {
@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
 
 	int sum = x + y;
 
-	printf("%d\n", sum);
+	printf("The sum is: %d\n", sum);
 
 	return 0;
 }
