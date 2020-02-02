@@ -1,3 +1,6 @@
+/*
+	2.1. Write a program that read two integer and display sum
+*/
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
