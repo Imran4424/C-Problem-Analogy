@@ -8,6 +8,8 @@ int main(int argc, char const *argv[])
 {
 	int num;
 
+	scanf("%d", &num);
+
 	// this is the very common style of writing if-else condtion of software industry
 	if(num % 2 == 0) {
 		printf("Even\n");
