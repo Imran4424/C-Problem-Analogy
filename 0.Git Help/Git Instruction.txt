@@ -21,3 +21,9 @@ updating existing repo
 cloning git repo
 
 git clone "repo clone link"
+
+when working with multiple person
+0. git pull
+1. git add --all
+2. git commit -m "commit msg"
+3. git push -u origin master
