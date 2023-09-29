@@ -12,6 +12,7 @@ int main()
     int a[100], n, temp;
     printf("Enter the nth position of array: ");
     scanf("%d", &n);
+
     for(int i=0; i<n; i++)
     {
         scanf("%d", &a[i]);
@@ -22,7 +23,7 @@ int main()
     {
         for(int j = i + 1; j < n; j++)
         {
-            if(a[i]>a[j])
+            if(a[i] > a[j])
             {
                 temp = a[i];
                 a[i] = a[j];
@@ -30,6 +31,7 @@ int main()
             }
         }
     }
+
     printf("\n\nsorted list is : \n");
 
     for(int i=0; i<n; i++)
