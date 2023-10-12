@@ -43,6 +43,11 @@ int main(int argc, char const *argv[])
 		if (text[i] >= 'a' && text[i] <= 'z') {
 			// (int) text[i] - 'a' - this is for converting char to int
 			// this technique is called mapping
+			// 'a' - 'a' = 0
+			// 'b' - 'a' = 1
+			// 'c' - 'a' = 2
+			// 'z' - 'a' = 25
+			// so it maps to 26 sized int array easily
 			int index = (int) text[i] - 'a';
 			freq[index]++;
 		}
@@ -54,6 +59,10 @@ int main(int argc, char const *argv[])
 	for (int i = 0; i < 26; ++i) {
 		// (char) (i + 'a') - this is for converting int to char
 		// this technique is called mapping
+		// 0 + 'a' = 'a'
+		// 1 + 'a' = 'b'
+		// 2 + 'a' = 'c'
+		// 25 + 'a' = 'z'
 		cout << "frequency of " << (char) (i + 'a') << " - " << freq[i] << endl;
 	}
 
