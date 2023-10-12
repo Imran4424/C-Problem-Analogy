@@ -31,6 +31,10 @@ int main(int argc, char const *argv[])
 	cout << "enter the text" << endl;
 	cin.getline(text, sizeof(text));
 
+	/*
+		making the all letters in lower case(if the user input 
+		uppercase by any chance)
+	*/
 	toLower(text);
 
 	// counting the frequency
