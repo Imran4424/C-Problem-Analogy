@@ -63,7 +63,9 @@ int main(int argc, char const *argv[])
 		// 1 + 'a' = 'b'
 		// 2 + 'a' = 'c'
 		// 25 + 'a' = 'z'
-		cout << "frequency of " << (char) (i + 'a') << " - " << freq[i] << endl;
+		if (freq[i] > 0) {
+			cout << "frequency of " << (char) (i + 'a') << " - " << freq[i] << endl;
+		}
 	}
 
 	return 0;
