@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <string>
+#include <algorithm>
 using namespace std;
 
 int main(int argc, char const *argv[])
@@ -11,6 +12,10 @@ int main(int argc, char const *argv[])
 	string text;
 
 	getline(cin, text);
+
+	cout << text << endl;
+
+	reverse(text.begin(), text.end());
 
 	cout << text << endl;
 
