@@ -1,3 +1,5 @@
 # CPP Problem Analogy
 
-1.Input Output
+0. Git Help
+1. Input Output
+2.
